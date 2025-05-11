@@ -1,5 +1,9 @@
 package study.groom.domain.member.domain.entity;
 
+import jakarta.persistence.*;
+import lombok.*;
+import study.groom.domain.model.entity.BaseEntity;
+
 @Entity
 @Getter
 @Builder

@@ -1,5 +1,11 @@
 package study.groom.domain.folder.domain.entity;
 
+import jakarta.persistence.*;
+import lombok.*;
+import org.hibernate.annotations.DynamicInsert;
+import org.hibernate.annotations.DynamicUpdate;
+import study.groom.domain.model.entity.BaseEntity;
+
 @Entity
 @Getter
 @Builder

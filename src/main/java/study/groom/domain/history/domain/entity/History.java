@@ -1,6 +1,11 @@
 package study.groom.domain.history.domain.entity;
 
+import jakarta.persistence.*;
+import jakarta.validation.constraints.Min;
+import lombok.*;
+import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
+import study.groom.domain.model.entity.BaseEntity;
 
 @Entity
 @Getter
