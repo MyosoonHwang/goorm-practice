@@ -6,6 +6,9 @@ import lombok.*;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 import study.groom.domain.model.entity.BaseEntity;
+import study.groom.domain.member.domain.entity.Member;
+
+import java.time.LocalDate;
 
 @Entity
 @Getter
