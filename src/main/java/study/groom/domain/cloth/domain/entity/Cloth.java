@@ -7,6 +7,10 @@ import lombok.*;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 import study.groom.domain.model.entity.BaseEntity;
+import study.groom.domain.model.enums.Season;
+import study.groom.domain.model.enums.ThicknessLevel;
+import study.groom.domain.member.domain.entity.Member;
+import java.util.List;
 
 @Entity
 @Getter

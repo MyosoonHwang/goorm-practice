@@ -3,6 +3,7 @@ package study.groom.domain.history.domain.entity;
 import jakarta.persistence.*;
 import lombok.*;
 import study.groom.domain.model.entity.BaseEntity;
+import study.groom.domain.cloth.domain.entity.Cloth;
 
 @Entity
 @Getter
